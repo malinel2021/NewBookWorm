@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65EE10A52A9F6B28B3EF3532 /* Pods_BookWorm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5AB5441B21E6F3283537AA /* Pods_BookWorm.framework */; };
+		EE1C7C8325A9A63800ED32CA /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1C7C8125A9A63800ED32CA /* PostTableViewCell.swift */; };
+		EE1C7C8425A9A63800ED32CA /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE1C7C8225A9A63800ED32CA /* PostTableViewCell.xib */; };
+		EE20666625A5AD81009BCF4D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20666525A5AD81009BCF4D /* User.swift */; };
+		EE20666825A5F945009BCF4D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20666725A5F945009BCF4D /* Post.swift */; };
+		EE454F2B2579F6AD004FC2C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE454F2A2579F6AD004FC2C5 /* AppDelegate.swift */; };
+		EE454F2D2579F6AD004FC2C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE454F2C2579F6AD004FC2C5 /* SceneDelegate.swift */; };
+		EE454F2F2579F6AD004FC2C5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE454F2E2579F6AD004FC2C5 /* LoginViewController.swift */; };
+		EE454F322579F6AD004FC2C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE454F302579F6AD004FC2C5 /* Main.storyboard */; };
+		EE454F342579F6AF004FC2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE454F332579F6AF004FC2C5 /* Assets.xcassets */; };
+		EE454F372579F6AF004FC2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE454F352579F6AF004FC2C5 /* LaunchScreen.storyboard */; };
+		EE454F3F2579F711004FC2C5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE454F3E2579F711004FC2C5 /* SignUpViewController.swift */; };
+		EE454F432579F747004FC2C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE454F422579F747004FC2C5 /* HomeViewController.swift */; };
+		EE46219D2587915000E7DCA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46219C2587915000E7DCA4 /* Constants.swift */; };
+		EE65708925876442007EEF86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE65708825876442007EEF86 /* GoogleService-Info.plist */; };
+		EEA31C352589BEF000CAF96C /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA31C342589BEF000CAF96C /* PostViewController.swift */; };
+		EEC0895225AB034100982548 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC0895025AB034000982548 /* ProfileTableViewCell.swift */; };
+		EEC0895325AB034100982548 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC0895125AB034000982548 /* ProfileTableViewCell.xib */; };
+		EEC0895725AB0E8300982548 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC0895625AB0E8300982548 /* MyProfileViewController.swift */; };
+		EEC9719425A3E93D00A8A5E4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC9719325A3E93D00A8A5E4 /* SearchViewController.swift */; };
+		EED003D5257F2FF3002C51AC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED003D4257F2FF3002C51AC /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B7EDE236882487C20C11D06 /* Pods-BookWorm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookWorm.release.xcconfig"; path = "Target Support Files/Pods-BookWorm/Pods-BookWorm.release.xcconfig"; sourceTree = "<group>"; };
+		69B8BFF417580CE4BD194870 /* Pods-BookWorm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookWorm.debug.xcconfig"; path = "Target Support Files/Pods-BookWorm/Pods-BookWorm.debug.xcconfig"; sourceTree = "<group>"; };
+		7F5AB5441B21E6F3283537AA /* Pods_BookWorm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookWorm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1C7C8125A9A63800ED32CA /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		EE1C7C8225A9A63800ED32CA /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		EE20666525A5AD81009BCF4D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EE20666725A5F945009BCF4D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		EE454F272579F6AC004FC2C5 /* BookWorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookWorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE454F2A2579F6AD004FC2C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE454F2C2579F6AD004FC2C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE454F2E2579F6AD004FC2C5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EE454F312579F6AD004FC2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE454F332579F6AF004FC2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE454F362579F6AF004FC2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE454F382579F6AF004FC2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE454F3E2579F711004FC2C5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EE454F422579F747004FC2C5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EE46219C2587915000E7DCA4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EE65708825876442007EEF86 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EEA31C342589BEF000CAF96C /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		EEC0895025AB034000982548 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		EEC0895125AB034000982548 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		EEC0895625AB0E8300982548 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		EEC9719325A3E93D00A8A5E4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EED003D4257F2FF3002C51AC /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE454F242579F6AC004FC2C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EE10A52A9F6B28B3EF3532 /* Pods_BookWorm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E4024A5D292EF6F28FF534E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69B8BFF417580CE4BD194870 /* Pods-BookWorm.debug.xcconfig */,
+				3B7EDE236882487C20C11D06 /* Pods-BookWorm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A27A3E0EB2D4955DC7C32C5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F5AB5441B21E6F3283537AA /* Pods_BookWorm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE454F1E2579F6AC004FC2C5 = {
+			isa = PBXGroup;
+			children = (
+				EE454F292579F6AC004FC2C5 /* BookWorm */,
+				EE454F282579F6AC004FC2C5 /* Products */,
+				3E4024A5D292EF6F28FF534E /* Pods */,
+				A27A3E0EB2D4955DC7C32C5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE454F282579F6AC004FC2C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE454F272579F6AC004FC2C5 /* BookWorm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE454F292579F6AC004FC2C5 /* BookWorm */ = {
+			isa = PBXGroup;
+			children = (
+				EE454F2A2579F6AD004FC2C5 /* AppDelegate.swift */,
+				EE454F2C2579F6AD004FC2C5 /* SceneDelegate.swift */,
+				EE454F442579F74D004FC2C5 /* ViewControllers */,
+				EE46219E2587915800E7DCA4 /* Helpers */,
+				EE60E28525AC6235005CB7F8 /* TableView Helpers */,
+				EE454F302579F6AD004FC2C5 /* Main.storyboard */,
+				EE454F332579F6AF004FC2C5 /* Assets.xcassets */,
+				EE454F352579F6AF004FC2C5 /* LaunchScreen.storyboard */,
+				EE454F382579F6AF004FC2C5 /* Info.plist */,
+				EE65708825876442007EEF86 /* GoogleService-Info.plist */,
+				EE20666525A5AD81009BCF4D /* User.swift */,
+				EE20666725A5F945009BCF4D /* Post.swift */,
+			);
+			path = BookWorm;
+			sourceTree = "<group>";
+		};
+		EE454F442579F74D004FC2C5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EEA31C312589BCD600CAF96C /* Main Tabs */,
+				EE454F2E2579F6AD004FC2C5 /* LoginViewController.swift */,
+				EE454F3E2579F711004FC2C5 /* SignUpViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EE46219E2587915800E7DCA4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EED003D4257F2FF3002C51AC /* Utilities.swift */,
+				EE46219C2587915000E7DCA4 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EE60E28525AC6235005CB7F8 /* TableView Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EE1C7C8125A9A63800ED32CA /* PostTableViewCell.swift */,
+				EE1C7C8225A9A63800ED32CA /* PostTableViewCell.xib */,
+				EEC0895025AB034000982548 /* ProfileTableViewCell.swift */,
+				EEC0895125AB034000982548 /* ProfileTableViewCell.xib */,
+			);
+			path = "TableView Helpers";
+			sourceTree = "<group>";
+		};
+		EEA31C312589BCD600CAF96C /* Main Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				EE454F422579F747004FC2C5 /* HomeViewController.swift */,
+				EEC9719325A3E93D00A8A5E4 /* SearchViewController.swift */,
+				EEA31C342589BEF000CAF96C /* PostViewController.swift */,
+				EEC0895625AB0E8300982548 /* MyProfileViewController.swift */,
+			);
+			path = "Main Tabs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE454F262579F6AC004FC2C5 /* BookWorm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE454F3B2579F6AF004FC2C5 /* Build configuration list for PBXNativeTarget "BookWorm" */;
+			buildPhases = (
+				378E725CE0375DB6B6089D64 /* [CP] Check Pods Manifest.lock */,
+				EE454F232579F6AC004FC2C5 /* Sources */,
+				EE454F242579F6AC004FC2C5 /* Frameworks */,
+				EE454F252579F6AC004FC2C5 /* Resources */,
+				8597E6BD5DA6D727D87ABB50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookWorm;
+			productName = BookWorm;
+			productReference = EE454F272579F6AC004FC2C5 /* BookWorm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE454F1F2579F6AC004FC2C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Malin Leven";
+				TargetAttributes = {
+					EE454F262579F6AC004FC2C5 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = EE454F222579F6AC004FC2C5 /* Build configuration list for PBXProject "BookWorm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE454F1E2579F6AC004FC2C5;
+			productRefGroup = EE454F282579F6AC004FC2C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE454F262579F6AC004FC2C5 /* BookWorm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE454F252579F6AC004FC2C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE454F372579F6AF004FC2C5 /* LaunchScreen.storyboard in Resources */,
+				EE1C7C8425A9A63800ED32CA /* PostTableViewCell.xib in Resources */,
+				EE65708925876442007EEF86 /* GoogleService-Info.plist in Resources */,
+				EE454F342579F6AF004FC2C5 /* Assets.xcassets in Resources */,
+				EE454F322579F6AD004FC2C5 /* Main.storyboard in Resources */,
+				EEC0895325AB034100982548 /* ProfileTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		378E725CE0375DB6B6089D64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookWorm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8597E6BD5DA6D727D87ABB50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookWorm/Pods-BookWorm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookWorm/Pods-BookWorm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookWorm/Pods-BookWorm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE454F232579F6AC004FC2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC9719425A3E93D00A8A5E4 /* SearchViewController.swift in Sources */,
+				EEC0895225AB034100982548 /* ProfileTableViewCell.swift in Sources */,
+				EEC0895725AB0E8300982548 /* MyProfileViewController.swift in Sources */,
+				EEA31C352589BEF000CAF96C /* PostViewController.swift in Sources */,
+				EE1C7C8325A9A63800ED32CA /* PostTableViewCell.swift in Sources */,
+				EE454F2F2579F6AD004FC2C5 /* LoginViewController.swift in Sources */,
+				EE20666825A5F945009BCF4D /* Post.swift in Sources */,
+				EE454F2B2579F6AD004FC2C5 /* AppDelegate.swift in Sources */,
+				EED003D5257F2FF3002C51AC /* Utilities.swift in Sources */,
+				EE454F3F2579F711004FC2C5 /* SignUpViewController.swift in Sources */,
+				EE46219D2587915000E7DCA4 /* Constants.swift in Sources */,
+				EE454F2D2579F6AD004FC2C5 /* SceneDelegate.swift in Sources */,
+				EE454F432579F747004FC2C5 /* HomeViewController.swift in Sources */,
+				EE20666625A5AD81009BCF4D /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE454F302579F6AD004FC2C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE454F312579F6AD004FC2C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE454F352579F6AF004FC2C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE454F362579F6AF004FC2C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE454F392579F6AF004FC2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE454F3A2579F6AF004FC2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE454F3C2579F6AF004FC2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B8BFF417580CE4BD194870 /* Pods-BookWorm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DF3ZNU289Q;
+				INFOPLIST_FILE = BookWorm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.malineleven.BookWorm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE454F3D2579F6AF004FC2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7EDE236882487C20C11D06 /* Pods-BookWorm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DF3ZNU289Q;
+				INFOPLIST_FILE = BookWorm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.malineleven.BookWorm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE454F222579F6AC004FC2C5 /* Build configuration list for PBXProject "BookWorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE454F392579F6AF004FC2C5 /* Debug */,
+				EE454F3A2579F6AF004FC2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE454F3B2579F6AF004FC2C5 /* Build configuration list for PBXNativeTarget "BookWorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE454F3C2579F6AF004FC2C5 /* Debug */,
+				EE454F3D2579F6AF004FC2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE454F1F2579F6AC004FC2C5 /* Project object */;
+}
