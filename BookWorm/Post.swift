@@ -52,6 +52,13 @@ class Post
         return postAuthor
     }
     
+    func getPostAuthorShort () -> String
+    {
+        let arr = postAuthor.split(separator: "@")
+        let username = String(arr[0])
+        return username
+    }
+    
     //Getting the book name and author in one String
     func getBookNameAndAuthor () -> String
     {

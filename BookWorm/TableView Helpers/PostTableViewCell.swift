@@ -48,7 +48,7 @@ class PostTableViewCell: UITableViewCell
     {
         //Setting all the information in the cells
         self.bookLabel.text = model.bookName + Constants.BY + model.bookAuthor
-        self.usernameLabel.text = model.postAuthor
+        self.usernameLabel.text = model.getPostAuthorShort()
         let ratingNum = model.ratingNumber
         switch ratingNum
         {
