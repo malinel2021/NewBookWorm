@@ -21,3 +21,10 @@ There are 4 main functions a user can do on this app:
 2. Search for reviews by searching for a specific book or author
 3. Post reviews including a book title, author, blurb, rating from 1-5, and review
 4. View their own profile, and scroll through all their posts in chronological order
+
+---- Current Dependencies ----
+1. UIKit
+2. Foundation
+3. Firebase
+4. FirebaseAuth
+5. FirebaseFirestore

@@ -85,5 +85,3 @@ class Post
         return reviewString
     }
 }
-
-

@@ -27,8 +27,3 @@ class User
         return username
     }
 }
-
-
-
-
-
